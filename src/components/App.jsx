@@ -22,6 +22,7 @@ export class App extends Component {
       : '0';
   };
 
+  
   render() {
     const { good, neutral, bad } = this.state;
     return (
